@@ -1,13 +1,14 @@
-import { useState } from 'react'
-
+import PostCreate from "./components/PostCreate"
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <div className="App">
+      <div className="container mx-auto">
+      <h1 className="text-4xl py-3"> Create New Post</h1>
+      <PostCreate/>
+      </div>
 
-     <p>Hello world</p>
     </div>
   )
 }
